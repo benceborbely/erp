@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 -- Database: `erp`
 --
 
-CREATE DATABASE `erp`;
+CREATE DATABASE IF NOT EXISTS `erp`;
 
 USE `erp`;
 
