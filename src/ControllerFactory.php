@@ -13,7 +13,6 @@ use Bence\Exception\NotAControllerException;
  */
 class ControllerFactory
 {
-
     /**
      * @param string $class
      * @return AbstractController
@@ -34,5 +33,4 @@ class ControllerFactory
 
         return $controller;
     }
-
 }
